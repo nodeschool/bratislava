@@ -16,4 +16,5 @@ Please tell us, if you are comming to
 
 ##### Pull Requests are welcome!
 
+### [Knowledge Library](https://github.com/nodeschool/bratislava/tree/master/library)
 *credits for logo goes to [d14](https://twitter.com/d14)*
