@@ -1,4 +1,4 @@
-# Bratislava Nodeschool group
+# Bratislava Nodeschool
 
 <img alt="NodeSchool Bratislava Logo" src="https://raw.githubusercontent.com/nodeschool/bratislava/master/assets/logo/nodeschool_ba.png" width="350">
 
@@ -10,6 +10,8 @@ If you have github account, feel free join room @
 is planned at **12.12.2015** as *all-day* event in **Progressbar** [(Michalská 3, Bratislava)](https://www.google.com/maps?q=michalska+3,+bratislava), please tell us, if you are comming to
 **[this thread (issue)](https://github.com/nodeschool/bratislava/issues/2)**
 
-Pull Requests are welcome!
+##### Sponsors are welcome!
+
+##### Pull Requests are welcome!
 
 *credits for logo goes to [d14](https://twitter.com/d14)*
