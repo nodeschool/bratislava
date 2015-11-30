@@ -1,6 +1,6 @@
 # Nodeschool/Bratislava
 
-<img alt="NodeSchool Bratislava Logo" src="https://raw.githubusercontent.com/nodeschool/bratislava/master/assets/logo/nodeschool_ba.png" width="350">
+<img alt="NodeSchool Bratislava Logo" src="https://raw.githubusercontent.com/nodeschool/bratislava/master/assets/logo/nodeschool_ba.svg" width="400">
 
 Feel free lurk public chatroom @
 [![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
