@@ -45,3 +45,20 @@ Open up terminal (Windows + R -> 'cmd' -> Enter) and type `node -v`. If it works
 * open up terminal
 * `sudo apt-get install nvm`
 * `nvm install 5.1`
+
+### Install Node with nvm on any Unix(Linux, Mac...)
+Node version manager (best practice): you can switch between Node version
+
+curl https://raw.githubusercontent.com/creationix/nvm/v5.0.0/install.sh | bash         #grab version 4
+source ~/.profile       # to get system aware of nvm - include nvm in $PATH = so you can use 'nvm' command in terminal
+nvm ls 			# if you get error install git
+apt-get install git, dnf/yum install git ....
+# install any node version you want
+nvm install v5.0.0
+nvm install v5.1.0
+node --version   	# node you're currently using
+nvm use v 5.0.0 	# changes node version only in current terminal tab
+nvm alias default v5.0.0  # now this version is set as system default 
+so if you do not set it expclicitely v5 is set as default but you can override it - but only in terminal tab where you type "nvm use vX.y...."
+elswhere (where you do not set it  expclicitely - v5.0.0 would be used
+
