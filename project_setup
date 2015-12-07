@@ -1,4 +1,14 @@
 npm init   # inicializuje node projekt
-npm install --save eslint   # linter - checkuje sytnax(uplny zaklad each projektu) - potom treba plugin v txt editore pre eslint, aby "vedeli o sebe"
+npm install --save-dev eslint   # linter checkuje sytnax(uplny zaklad each projektu)- potom treba plugin v txt editore pre eslint, aby "vedeli o sebe"
 eslint config  # konfiguruje eslint pozrite si navody (how to configure eslint) ale stacia defaulty, okrem JSX a react moznosti, 
 #yes iba ak chcete pouzivat reactJS
+#potom mozte pridavat dalsie package a zacat kodit :)
+#napr:
+npm install --save react@^0.14.0
+# rozdiel medzi --save --save-dev : --save-dev to su iba developers dependencie teda bez nich projekt bude ficat in production 
+#len su potrebne pre developovanie - napr eslint, nejake tooly ...
+# ostatna odporucana literatura: 
+https://rogerdudler.github.io/git-guide/   #git guide
+#package.json - resp ( ten file sa tvori pri npm init -da sa editovat aj manualne):
+#http://browsenpm.org/package.json
+#https://docs.npmjs.com/files/package.json
