@@ -45,3 +45,38 @@ Open up terminal (Windows + R -> 'cmd' -> Enter) and type `node -v`. If it works
 * open up terminal
 * `sudo apt-get install nvm`
 * `nvm install 5.1`
+
+
+##### Mac OS X
+
+Navigate your browser to the [nodejs.org](https://nodejs.org). Download your Node.js installation package by clicking on of the big green buttons (we recommend the LTS variant):
+
+![Download page](assets/mac-os-installation/01.jpg)
+
+Run downloaded file:
+
+![Download page](assets/mac-os-installation/02.jpg)
+
+Go through the installation process, provide your password when asked:
+
+![Download page](assets/mac-os-installation/03.jpg)
+
+Your node is installed at this point, but we recommend some *"fininshing touches"*:
+
+- set the ownership of global module folder
+
+  `sudo chown -R YOUR_USER_NAME /usr/local/lib/node_modules`
+
+  replace `YOUR_USER_NAME` in above command by your actual username in macosx. If you don't know your username, run `whoami` to get it printed into console.
+
+- update to latest NPM
+
+  `npm update -g`
+
+Now you can test your node.js & npm installation:
+
+  `node -v`
+
+  `npm -v`
+
+![Download page](assets/mac-os-installation/04.jpg)
