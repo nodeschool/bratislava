@@ -7,10 +7,12 @@ Feel free lurk public chatroom @
 
 ## Upcoming NodeSchool/Bratislava meetup
 
-planned at **12.12.2015** as *all-day* event in **Progressbar** [(Michalská 3, Bratislava)](https://www.google.com/maps?q=michalska+3,+bratislava).
+planned at **23.1.2015** as *all-day* event in **Progressbar** [(Michalská 3, Bratislava)](https://www.google.com/maps?q=michalska+3,+bratislava).
 
-Please tell us, if you are coming to
-**[this thread (issue)](https://github.com/nodeschool/bratislava/issues/2)**
+
+Please tell us, if you are comming to meetup at
+**[this thread (issue)](https://github.com/nodeschool/bratislava/issues/9)**
+
 
 ##### Sponsors are welcome!
 
