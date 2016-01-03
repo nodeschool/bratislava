@@ -19,6 +19,11 @@ Please tell us, if you are coming to
 ### [Knowledge Library](https://github.com/nodeschool/bratislava/tree/master/library)
 *credits for logo goes to [d14](https://twitter.com/d14)*
 
+# Newcomer to meetup?
+
+Would be good if you can setup your enviroment before meetup, so you can save some time.
+Read instructions below and if you are having some problems, feel free to open issue or visit us at chat  [![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Installing NodeJS
 
 For obvious reasons, having NodeJS installed on your work machine is a must. :smile:
