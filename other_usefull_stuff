@@ -1,0 +1,16 @@
+npm install eslint -g  # linter - checkuje sytnax(uplny zaklad each projektu)- potom treba plugin v txt editore pre eslint, aby "vedeli o sebe"
+eslint config  # konfiguruje eslint pozrite si navody (how to configure eslint) ale stacia defaulty, okrem JSX a react moznosti, 
+#iba ak chcete pouzivat reactJS
+# -g znamena ze nainstaluje globalne (odporuca sa iba pre veci ako napr lintre, nejake command line tools...
+#inak je to antipattern - niektore package globalne ani nepojdu nainstalovat
+
+# ostatna odporucana literatura: 
+https://rogerdudler.github.io/git-guide/   #git guide
+
+#package.json - resp ( ten file sa tvori pri npm init -da sa editovat aj manualne):
+#http://browsenpm.org/package.json
+
+#https://docs.npmjs.com/files/package.json
+# a este samotny textovy editor: najskor asi atom (od githubu) 
+# http://info.meteor.com/blog/how-to-set-up-atom-and-webstorm-for-meteor-es6-es2015-and-jsx  - configure eslint s atomom
+

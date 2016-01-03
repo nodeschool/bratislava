@@ -53,37 +53,19 @@ Open up terminal (Windows + R -> 'cmd' -> Enter) and type `node -v`. If it works
 * `sudo apt-get install nvm`
 * `nvm install 5.1`
 
+### Install Node with nvm on any Unix(Linux, Mac...)
+Node version manager (best practice): you can switch between Node version
 
-##### Mac OS X
+curl https://raw.githubusercontent.com/creationix/nvm/v5.0.0/install.sh | bash         #grab version 4
+source ~/.profile       # to get system aware of nvm - include nvm in $PATH = so you can use 'nvm' command in terminal
+nvm ls 			# if you get error install git
+apt-get install git, dnf/yum install git ....
+# install any node version you want
+nvm install v5.0.0
+nvm install v5.1.0
+node --version   	# node you're currently using
+nvm use v 5.0.0 	# changes node version only in current terminal tab
+nvm alias default v5.0.0  # now this version is set as system default 
+so if you do not set it expclicitely v5 is set as default but you can override it - but only in terminal tab where you type "nvm use vX.y...."
+elswhere (where you do not set it  expclicitely - v5.0.0 would be used
 
-Navigate your browser to the [nodejs.org](https://nodejs.org). Download your Node.js installation package by clicking on of the big green buttons (we recommend the LTS variant):
-
-![Download page](assets/mac-os-installation/01.jpg)
-
-Run downloaded file:
-
-![Download page](assets/mac-os-installation/02.jpg)
-
-Go through the installation process, provide your password when asked:
-
-![Download page](assets/mac-os-installation/03.jpg)
-
-Your node is installed at this point, but we recommend some *"fininshing touches"*:
-
-- set the ownership of global module folder
-
-  `sudo chown -R YOUR_USER_NAME /usr/local/lib/node_modules`
-
-  replace `YOUR_USER_NAME` in above command by your actual username in macosx. If you don't know your username, run `whoami` to get it printed into console.
-
-- update to latest NPM
-
-  `npm update -g`
-
-Now you can test your node.js & npm installation:
-
-  `node -v`
-
-  `npm -v`
-
-![Download page](assets/mac-os-installation/04.jpg)
