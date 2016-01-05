@@ -1,32 +1,39 @@
 # Nodeschool/Bratislava
+[![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <img alt="NodeSchool Bratislava Logo" src="https://raw.githubusercontent.com/nodeschool/bratislava/master/assets/logo/nodeschool_ba.png" width="400">
-
-Feel free lurk public chatroom @
-[![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Upcoming NodeSchool/Bratislava meetup
 
 planned at **23.1.2015** as *all-day* event in **Progressbar** [(Michalská 3, Bratislava)](https://www.google.com/maps?q=michalska+3,+bratislava).
 
-
 Please tell us, if you are comming to meetup at
 **[this thread (issue)](https://github.com/nodeschool/bratislava/issues/9)**
 
+Have a question? [Open an issue](https://github.com/nodeschool/bratislava/issues).
 
-##### Sponsors are welcome!
+Note: Everyone involved with NodeSchool Bratislava has to follow our [Code of Conduct](https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md). You can also find contact info there in case you want to **report a violation** or **need help in general**.
 
-##### Pull Requests are welcome!
+###### Sponsors are welcome!
+###### Pull Requests are welcome!
 
-### [Knowledge Library](https://github.com/nodeschool/bratislava/tree/master/library)
-*credits for logo goes to [d14](https://twitter.com/d14)*
+# Become a Mentor
+If you are an experienced node.js developer, become a mentor and help others learn node!
+
+Requirements:
+- Some node.js experience
+- Git experience
+- Software engineering skills
+- Time to attend on the NodeSchool workshops
+- [Contact @yangwao at gitter](https://gitter.im/yangwao)
 
 # Newcomer to meetup?
 
 Would be good if you can setup your enviroment before meetup, so you can save some time.
-Read instructions below and if you are having some problems, feel free to open issue or visit us at chat  [![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Read instructions below and if you are having some problems, feel free to [open issue](https://github.com/nodeschool/bratislava/issues) or visit us at chat  [![Join the chat at https://gitter.im/nodeschool/bratislava](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/bratislava?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Installing NodeJS
+# Setup your enviroment
+### Installing NodeJS
 
 For obvious reasons, having NodeJS installed on your work machine is a must. :smile:
 
@@ -87,3 +94,7 @@ Now you can test your node.js & npm installation:
   `npm -v`
 
 ![Download page](assets/mac-os-installation/04.jpg)
+
+
+### [Knowledge Library](https://github.com/nodeschool/bratislava/tree/master/library)
+*credits for logo goes to [d14](https://twitter.com/d14)*
