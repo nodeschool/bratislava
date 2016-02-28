@@ -1,0 +1,10 @@
+{
+  "generator-lb": {
+    "name": "nodeschool",
+    "features": [
+      "includeModernizr"
+    ],
+    "sassCompilator": "libSass",
+    "multiLanguage": false
+  }
+}

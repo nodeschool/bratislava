@@ -1,0 +1,20 @@
+mixin section(data)
+  section.section&attributes(attributes)(aria-labelledby=data.headline)
+    .section__wrap
+      .section__content
+        
+        h2.section__headline= data.headline  
+        
+        - if (Array.isArray(data.sub)) {
+          each sub in data.sub
+            p= sub 
+        - } else {
+            p= data.sub
+        - }
+        
+      block
+        
+
+mixin separator
+  .separator
+    .separator__hexagon

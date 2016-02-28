@@ -1,0 +1,7 @@
+footer.footer
+  .footer__wrap
+    .footer__links
+      each link, i in footer.links
+        a.link.footer__link(href=link.href)= link.label
+        if i < footer.links.length - 1 
+          span.footer__link__separator |

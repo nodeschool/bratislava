@@ -1,0 +1,135 @@
+.place__map {
+  width: 100%;
+  height: _get-rem(200px);
+}
+
+.separator {
+  position: relative;
+  
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    height: 3px;
+    width: calc(50% - 50px);
+    background-color: #ffe51f;
+  }
+  
+  &:before {
+    left: 0;
+  }
+  
+  &:after {
+    right: 0;
+  }
+  
+  // build with http://csshexagon.com/
+  &__hexagon {
+    position: relative;
+    width: 30px; 
+    height: 17.32px;
+    background-color: #ffe51f;
+    margin: 0 auto;
+    
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+    }
+
+    &:before {
+      bottom: 100%;
+      border-bottom: 8.66px solid #ffe51f;
+    }
+
+    &:after {
+      top: 100%;
+      width: 0;
+      border-top: 8.66px solid #ffe51f;
+    }
+    
+    &:hover {
+      transform: rotate(360deg);
+      transition: transform 1s cubic-bezier(0.680, -0.550, 0.500, 1.000);
+    }
+  }
+}
+
+
+.terms {
+  display: flex;
+  flex-flow: row wrap;
+  padding: _get-rem(40px, 0px, 0px);
+}
+
+.term, .term .chrome, .term .chrome .btn-term {
+  border: _get-rem(2px) solid #303030;
+}
+
+.term-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 50%;
+  padding: _get-rem(0px, 20px);
+}
+
+.term {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: _get-rem(10px);
+  text-align: left;
+  min-width: _get-rem(225px);
+  .chrome {
+    height: _get-rem(34px);
+    padding-left: _get-rem(4px);
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+    
+    &:before {
+      content: " ";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+  
+  .btn-term {
+    display: inline-block;
+    vertical-align: middle;
+    width: _get-rem(8px);
+    height: _get-rem(8px);
+    border-radius: 100%;
+    margin: _get-rem(0px, 5px, 0px, 0px);
+  }
+  
+  .shell {
+    padding: _get-rem(10px);
+    color: #777;
+    min-height: _get-rem(130px);
+    overflow: hidden;
+  }
+  
+  code {
+    display: block;
+    margin: _get-rem(12px, 0px);
+    padding: _get-rem(4px, 10px);
+    border-left: _get-rem(8px) solid #F7DA03;
+    font-family: AndaleMono, courier, monospace;
+  }
+  
+  .workshopper {
+    background: #F8F0BD;
+    padding: _get-rem(2px);
+    
+    code {
+      border: 0 none;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@function _get-rem($sizes...) {
+  $result: '';
+  
+  $font-size-root: 16px !default;
+  
+  @each $size in $sizes {
+    $result: $result + ' ' +  ($size / $font-size-root * 1rem);
+  }
+  
+  @return unquote($result);
+}

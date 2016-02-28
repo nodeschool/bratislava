@@ -1,0 +1,7 @@
++section(sponsors).sponsors#sponsors
+  
+  ul.list
+    each sponsor in sponsors.sponsors
+      li 
+        a.link(href=sponsor.href)= sponsor.label
+        span  (#{sponsor.count})
