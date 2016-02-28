@@ -10,10 +10,10 @@ registration:
   sub: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eum."
   link: "https://yangwao.typeform.com/to/wdZuNE"
   linkText: 'Register here'
-  
+
 place:
   headline: "Place"
-  sub: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eum."
+  sub: "Nodeschool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter in passage 'Michalsky dvor', on your left you will see black doors, ring on bell 'Progressbar'. Go on second floor, on the right you will see doors to hackerspace Progressbar"
 
 howToStart:
   headline: "How to start with Nodeschool"
@@ -23,8 +23,8 @@ moreInformation:
   headline: "More information"
   sub: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eum."
   buttons:
-    - 
-      label: Gitter
+    -
+      label: Gitter (Chat)
       href: https://gitter.im/nodeschool/bratislava
     -
       label: Github
@@ -32,23 +32,30 @@ moreInformation:
 
 sponsors:
   headline: "Sponsors"
-  sub: 
-    - "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eum."
+  sub:
+    - "Want to sponsor? We can push or help with your product with our javascript/nodejs newcomers somehow. Also job-offers are welcome"
     - "Past sponsors:"
   sponsors:
-    - 
+    -
       label: Aktiv.io
       href: https://www.aktiv.io/
-      count: 1 
-      
+      count: 3
+    -
+      label: Saferpass.net
+      href: https://www.saferpass.net/
+      count: 2
+    -
+      label: Pixel Federation
+      href: https://www.pixelfederation.com
+      count: 1
 footer:
   links:
-    - 
+    -
       label: Code of conduct
       href: https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md
-    - 
+    -
       label: Enviroment setup
       href: https://github.com/nodeschool/bratislava#setup-your-enviroment
-    - 
+    -
       label: Knowledge Libary
       href: https://github.com/nodeschool/bratislava/tree/master/library
