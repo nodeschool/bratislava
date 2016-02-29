@@ -6,8 +6,8 @@ header:
   headline: "Nodeschool Bratislava"
 
 registration:
-  headline: "Next event"
-  sub: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eum."
+  headline: "#4 Game edition: WebGL + Three.js 4.2.2016 9:30AM"
+  sub: "Blade pride pokecat o WeGL a Three.js plus ako si dat web na distribuovany internetovy filesystem IPFS"
   link: "https://yangwao.typeform.com/to/wdZuNE"
   linkText: 'Register here'
 
@@ -26,6 +26,12 @@ moreInformation:
     -
       label: Gitter (Chat)
       href: https://gitter.im/nodeschool/bratislava
+    -
+      label: Facebook Event
+      href: https://www.facebook.com/events/1280166898666181/
+    -
+      label: Meetup
+      href: http://www.meetup.com/nodeba/
     -
       label: Github
       href: https://github.com/nodeschool/bratislava
