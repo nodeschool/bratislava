@@ -5,6 +5,9 @@ mixin section(data)
         
         h2.section__headline= data.headline  
         
+        if data.subheadline
+          h3.section__subheadline= data.subheadline
+        
         - if (Array.isArray(data.sub)) {
           each sub in data.sub
             p= sub 
