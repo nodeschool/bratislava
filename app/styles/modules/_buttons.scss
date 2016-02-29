@@ -10,6 +10,8 @@
   text-align:center;
 	text-decoration:none;
   
+  white-space: nowrap;
+  
   &:before, 
   &:after {
     content: '';
@@ -50,9 +52,10 @@
 
 .btn--buttonline {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   
   .btn {
-    margin: 0 _get-rem(10px);
+    margin: 5px _get-rem(10px);
   }
 }
