@@ -1,5 +1,3 @@
-
-
 html, body {
   padding: 0;
   height: 100%;
@@ -12,7 +10,7 @@ html, body {
 body {
   position: relative;
   line-height: _get-rem(20px);
-  color: #000;
+  color: $color-black;
 }
 
 *,
@@ -28,6 +26,12 @@ h1 {
 h2 {
   font-size: _get-rem($h2-fs);
   line-height: _get-rem($h2-lh);
+}
+
+h3 {
+  color: $color-gray;
+  font-size: _get-rem($h3-fs);
+  line-height: _get-rem($h3-lh);
 }
 
 .section {
@@ -52,19 +56,19 @@ h2 {
 .link {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: $color-black;
   border-bottom: _get-rem(1px) solid transparent;
   
   transition: border 0.3s;
   
   &:visited {
-    color: #000;
+    color: $color-black;
   }
   
   &:focus,
   &:hover,
   &.active {
-    border-color: #2FC3F0;
+    border-color: $color-blue;
   }
 }
 
