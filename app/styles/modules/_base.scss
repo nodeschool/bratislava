@@ -77,3 +77,16 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+.flex-list {
+  display: flex;
+  justify-content: center;
+  
+  &.flex-list--horizontal {
+    flex-flow: row wrap;
+  }
+  
+  li {
+    flex: 1 0;  
+  }
+}

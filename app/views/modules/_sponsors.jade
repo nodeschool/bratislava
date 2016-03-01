@@ -1,7 +1,11 @@
 +section(sponsors).sponsors#sponsors
   
-  ul.list
+  ul.list.flex-list.flex-list--horizontal
     each sponsor in sponsors.sponsors
       li 
-        a.link(href=sponsor.href)= sponsor.label
-        span  (#{sponsor.count})
+        //a.link(href=sponsor.href)= sponsor.label
+        
+        .sponsors__logo
+          a.sponsors__logo__link(href=sponsor.href)
+            img.sponsors__logo__img(src=sponsor.img) 
+          .sponsors__logo__count  (#{sponsor.count})
