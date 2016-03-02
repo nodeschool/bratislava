@@ -1,9 +1,9 @@
 page:
-  title: "Nodeschool Bratislava"
-  desc: "Nodeschool Bratislava"
+  title: "NodeSchool Bratislava"
+  desc: "NodeSchool Bratislava"
 
 header:
-  headline: "Nodeschool Bratislava"
+  headline: "NodeSchool Bratislava"
 
 registration:
   headline: "#4 Game edition: WebGL + Three.js"
@@ -20,10 +20,10 @@ registration:
 
 place:
   headline: "Place"
-  sub: "Nodeschool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter in passage 'Michalsky dvor', on your left you will see black doors, ring on bell 'Progressbar'. Go on second floor, on the right you will see doors to hackerspace Progressbar"
+  sub: "NodeSchool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter in passage 'Michalsky dvor', on your left you will see black doors, ring on bell 'Progressbar'. Go on second floor, on the right you will see doors to hackerspace Progressbar"
 
 howToStart:
-  headline: "How to start with Nodeschool"
+  headline: "How to start with NodeSchool"
   sub: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo eaque, quae quisquam temporibus nam ab, dolorem impedit reiciendis repellat magni. Perspiciatis nobis iste provident sed et alias, laborum eu"
 
 moreInformation:
@@ -66,6 +66,9 @@ sponsors:
       count: 1
 footer:
   links:
+    -
+      label: NodeSchool.io
+      href: http://nodeschool.io/
     -
       label: Code of conduct
       href: https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md
