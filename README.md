@@ -36,6 +36,11 @@ Gulp help:
 gulp help
 ```
 
+## Deploy to gh-pages
+
+1. Commit `dist/`
+2. Run `git subtree push --prefix dist origin gh-pages`
+
 ## Views data
 
 Edit files in `app/views/data/` to change content of website.

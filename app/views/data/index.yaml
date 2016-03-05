@@ -52,17 +52,17 @@ sponsors:
     -
       label: Aktiv.io
       href: https://www.aktiv.io/
-      img: /images/sponsors/aktivio.png
+      img: images/sponsors/aktivio.png
       count: 3
     -
       label: Saferpass.net
       href: https://www.saferpass.net/
-      img: /images/sponsors/saferpass.png
+      img: images/sponsors/saferpass.png
       count: 2
     -
       label: Pixel Federation
       href: https://www.pixelfederation.com
-      img: /images/sponsors/pixel.png
+      img: images/sponsors/pixel.png
       count: 1
 footer:
   links:
