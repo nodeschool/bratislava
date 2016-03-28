@@ -42,10 +42,10 @@ moreInformation:
     -
       label: Github
       href: https://github.com/nodeschool/bratislava
-      
+    -
       label: Request Topic
       href: https://github.com/nodeschool/bratislava/blob/master/talks.md
-      
+    -  
       label: Give a talk
       href: https://github.com/nodeschool/bratislava/blob/master/talks.md
 
@@ -84,6 +84,6 @@ footer:
     -
       label: Knowledge Libary
       href: https://github.com/nodeschool/bratislava/tree/master/library
-      
+    -  
       label: Request Topic
       href: https://github.com/nodeschool/bratislava/blob/master/talks.md
