@@ -5,10 +5,7 @@
 
 ## Upcoming NodeSchool/Bratislava meetup
 
-planned at **27.2.2015** as *all-day* event in **Progressbar** [(Michalská 3, Bratislava)](https://www.google.com/maps?q=michalska+3,+bratislava).
-
-Please tell us, if you are comming to meetup
-**[signup here](https://yangwao.typeform.com/to/wdZuNE)**
+There is no planned yet, but feel free to help organize one. Check issues for talks or fill topic request! :)
 
 Have a question? [Open an issue](https://github.com/nodeschool/bratislava/issues).
 
