@@ -59,5 +59,9 @@
   "scripts": {
     "build": "gulp build",
     "serve": "gulp serve"
+  },
+  "dependencies": {
+    "merge-stream": "^1.0.1",
+    "node-notifier": "^5.1.2"
   }
 }
