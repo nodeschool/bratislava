@@ -28,11 +28,11 @@ registration:
 
 place:
   headline: "Place"
-  sub: "NodeSchool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter in passage 'Michalsky dvor', on your left you will see black doors, ring on bell 'Progressbar'. Go on second floor, on the right you will see doors to hackerspace Progressbar"
+  sub: "NodeSchool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter the passage 'Michalsky dvor', on your left you will see black doors, ring the doorbell 'Progressbar'. Go to the second floor, on the right you will see doors to hackerspace Progressbar."
 
 howToStart:
   headline: "How to start with NodeSchool"
-  sub: "First you need install Node.js runtime from https://node.js.org and then you can pick workshoper from https://nodeschool.io/#workshopper-list"
+  sub: "First, you need to install Node.js runtime from https://nodejs.org and then you can pick a workshopper from https://nodeschool.io/#workshopper-list"
 
 moreInformation:
   headline: "More information"
