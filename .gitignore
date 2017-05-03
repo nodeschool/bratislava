@@ -1,6 +1,9 @@
 node_modules
 .tmp
+dist
 .sass-cache
 bower_components
 .env
-app/views/data.yaml
+*.sublime-project
+*.sublime-workspace
+.sublime-gulp.cache

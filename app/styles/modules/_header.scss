@@ -2,30 +2,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   position: relative;
-  
-  background-color: #FFE51F;
-  
-  &:before {
+
+  background-color: #ffe51f;
+
+  &::before {
     content: '';
-    
+
     position: absolute;
     top: 0;
     left: 0;
-    
+
     height: 100%;
     width: 100%;
-    
-    background-image: url(../images/hero-bg.svg);
+
+    background-image: url('../images/hero-bg.svg');
     background-position: center;
     background-size: 1920px 1080px;
-    
+
     z-index: 0;
     opacity: 0.75;
   }
 
-  
+
   &__content {
     padding: _get-rem(40px, 20px);
     text-align: center;
@@ -35,7 +35,7 @@
 
 .logo {
   padding-bottom: _get-rem(10px);
-  
+
   &__value svg {
     display: block;
     height: _get-rem(160px);

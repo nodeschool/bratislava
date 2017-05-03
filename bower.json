@@ -1,7 +1,0 @@
-{
-  "name": "nodeschool",
-  "private": true,
-  "dependencies": {
-    "gmaps": "~0.4.22"
-  }
-}

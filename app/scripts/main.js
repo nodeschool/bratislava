@@ -1,6 +1,4 @@
-/* global GMaps */
-
-const myApp = myApp || {};
+import GMaps from 'gmaps';
 
 const map = new GMaps({
   el: '#map',

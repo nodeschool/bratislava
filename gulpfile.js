@@ -1,10 +1,6 @@
-'use strict';
-
-var requireDir = require('require-dir');
+const hub = require('gulp-hub');
 
 // handle enviromental variables in .env file
-var dotenv = require('dotenv');
-dotenv.load();
+require('dotenv').config({ silent: true });
 
-// Require all tasks in gulp/tasks, including subfolders
-requireDir('./gulp/tasks', { recurse: true });
+hub('./node_modules/light-scripts/gulpfile.js');

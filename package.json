@@ -6,62 +6,133 @@
   },
   "version": "0.0.1",
   "description": "nodeschool description",
+  "dependencies": {
+    "gmaps": "~0.4.24"
+  },
   "devDependencies": {
-    "autoprefixer": "~6.0.2",
-    "babel-eslint": "~4.1.1",
-    "browser-sync": "~2.9.3",
-    "connect-modrewrite": "~0.8.2",
-    "del": "~2.0.2",
-    "dotenv": "~1.2.0",
-    "eslint": "~1.4.1",
-    "eslint-config-airbnb": "~0.0.8",
-    "gulp": "~3.9.0",
-    "gulp-babel": "~5.2.1",
-    "gulp-cache": "~0.3.0",
-    "gulp-concat": "~2.6.0",
-    "gulp-data": "~1.2.0",
-    "gulp-eslint": "~1.0.0",
-    "gulp-extend": "~0.2.0",
-    "gulp-filter": "~3.0.1",
-    "gulp-help": "~1.6.0",
-    "gulp-if": "~1.2.5",
-    "gulp-imagemin": "~2.3.0",
-    "gulp-jade": "~1.1.0",
-    "gulp-minify-css": "~1.2.0",
-    "gulp-modernizr": "~1.0.0-alpha",
-    "gulp-notify": "~2.2.0",
-    "gulp-plumber": "~1.0.0",
-    "gulp-postcss": "~6.0.0",
-    "gulp-rename": "~1.2.0",
-    "gulp-rev": "~6.0.1",
-    "gulp-rev-replace": "~0.4.0",
-    "gulp-rsync": "~0.0.5",
-    "gulp-sass": "~2.0.4",
-    "gulp-size": "~2.0.0",
-    "gulp-sourcemaps": "~1.5.0",
-    "gulp-uglify": "~1.4.1",
-    "gulp-useref": "~1.3.0",
-    "gulp-util": "~3.0.4",
-    "gulp-yaml-merge": "adammockor/gulp-yaml-merge",
-    "jade": "~1.11.0",
-    "js-yaml": "^3.5.3",
-    "map-stream": "~0.0.5",
-    "node-sass": "~3.3.2",
-    "pixrem": "^3.0.0",
-    "require-dir": "~0.3.0",
-    "run-sequence": "~1.1.0",
-    "wiredep": "~2.2.2",
-    "yargs": "~3.24.0"
+    "dotenv": "~4.0.0",
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.1.3",
+    "eslint-loader": "~1.7.1",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-prettier": "~2.0.1",
+    "glob": "~7.1.1",
+    "gulp": "~3.9.1",
+    "gulp-hub": "~0.8.0",
+    "light-scripts": "~2.2.2",
+    "lint-staged": "~3.4.0",
+    "lodash": "~4.17.4",
+    "pre-commit": "~1.2.2",
+    "prettier": "~1.2.2",
+    "stylelint": "~7.10.1",
+    "stylelint-config-sass-guidelines": "~2.1.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.9.0"
   },
   "scripts": {
     "build": "gulp build",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "lint-staged": "lint-staged"
   },
-  "dependencies": {
-    "merge-stream": "^1.0.1",
-    "node-notifier": "^5.1.2"
+  "pre-commit": "lint-staged",
+  "lint-staged": {
+    "app/scripts/**/*.js": "eslint",
+    "app/styles/**/*.scss": "stylelint"
+  },
+  "browserslist": [
+    "> 2%",
+    "last 2 versions"
+  ],
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "arrow-parens": "off",
+      "comma-dangle": "off",
+      "no-trailing-spaces": [
+        2,
+        {
+          "skipBlankLines": true
+        }
+      ],
+      "no-param-reassign": 0,
+      "no-underscore-dangle": 0,
+      "no-plusplus": [
+        "error",
+        {
+          "allowForLoopAfterthoughts": true
+        }
+      ],
+      "prefer-spread": "off",
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": [
+            "!gulp/**/*.js"
+          ]
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "trailingComma": "all",
+          "singleQuote": true
+        }
+      ]
+    },
+    "globals": {
+      "$": true,
+      "jQuery": true,
+      "Modernizr": true,
+      "window": true
+    },
+    "env": {
+      "browser": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "rules": {
+      "order/properties-alphabetical-order": null,
+      "max-nesting-depth": [
+        2,
+        {
+          "ignore": [
+            "blockless-at-rules"
+          ]
+        }
+      ],
+      "selector-no-qualifying-type": [
+        true,
+        {
+          "ignore": [
+            "attribute",
+            "class"
+          ]
+        }
+      ],
+      "selector-class-pattern": null,
+      "scss/at-function-pattern": "^[_a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+      "scss/at-import-no-partial-leading-underscore": null,
+      "color-named": [
+        "never",
+        {
+          "ignore": [
+            "inside-function"
+          ]
+        }
+      ]
+    },
+    "ignoreFiles": [
+      "app/styles/vendors/**/*.scss"
+    ]
   }
 }

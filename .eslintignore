@@ -1,4 +1,2 @@
-**/*.js
-!app/scripts/*.js
-!app/scripts/modules/**/*.js
-!gulp/**/*.js
+node_modules/*
+dist/*
