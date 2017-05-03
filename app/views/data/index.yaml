@@ -104,13 +104,13 @@ footer:
       label: NodeSchool.io
       href: http://nodeschool.io/
     -
-      label: Code of conduct
+      label: Code of Conduct
       href: https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md
     -
-      label: Enviroment setup
+      label: Environment setup
       href: https://github.com/nodeschool/bratislava#setup-your-enviroment
     -
-      label: Knowledge Libary
+      label: Knowledge Library
       href: https://github.com/nodeschool/bratislava/tree/master/library
     -
       label: Request Topic
