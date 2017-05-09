@@ -25,6 +25,10 @@ registration:
       label: Stickermule
       href: https://www.stickermule.com/uk/unlock?ref_id=5701170701
       img: images/sponsors/stickermule.png
+    -
+      label: Erni
+      href: https://www.join.erni/en
+      img: images/sponsors/erni.png
 
 place:
   headline: "Place"
@@ -73,6 +77,11 @@ sponsors:
       href: https://www.aktiv.io/
       img: images/sponsors/aktivio.png
       count: 3
+    -
+      label: Erni
+      href: https://www.join.erni/en
+      img: images/sponsors/erni.png
+      count: 1
     -
       label: Saferpass.net
       href: https://www.saferpass.net/
