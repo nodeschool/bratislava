@@ -1,6 +1,5 @@
 node_modules
 .tmp
-dist
 .sass-cache
 bower_components
 .env
