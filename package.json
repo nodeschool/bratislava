@@ -36,7 +36,6 @@
     "serve": "gulp serve",
     "lint-staged": "lint-staged",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
-
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
