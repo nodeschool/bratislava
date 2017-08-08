@@ -6,29 +6,17 @@ header:
   headline: "NodeSchool Bratislava"
 
 registration:
-  headline: "#6 Ako si spraviť offline-first webovú aplikáciu"
-  subheadline: "11.5.2016 17:00"
-  sub: "Matej @yangwao Nemček - Prejdeme si step-by-step hood.ie framework a naučíte sa spraviť si svoju offline-first appku, ktorá Vám bude fungovať aj bez pripojenia na Internet a neuvidíte downasaura keď budete v tuneli. Preberieme si základne hoodie.store api a niečo naviac ak stihneme."
-  link: "https://www.meetup.com/nodejsbratislava/events/239327475/"
+  headline: "Nodeschool Bratislava #7 async/await + wtf.js"
+  subheadline: "13.9.2017 18:00"
+  sub: "Michal Kralik - Naučíme sa používať Promise a async/await syntax podporovanú v novších verziách Node.js a JS. Vysvetlíme si ako nám pomôže zbaviť sa callbackov a ukážeme si pár príkladov, na ktoré si treba dať pozor pri implementácii. Matej Nemček - wtfjs - js: the funny part (0.1 + 0.2) === 0.3 // -> false 3 > 2 > 1 // -> false. (![]+[])[+[]]+(![]+[])[+!+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]] // -> .... "
+  link: "https://www.meetup.com/nodejsbratislava/events/242383669/"
   linkText: 'I want go'
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
     -
-      label: Mad Drop Espresso & Brew Bar
-      href: https://maddrop.sk/
-      img: images/sponsors/maddrop.png
-    -
-      label: Visegrad Fund
-      href: http://visegradfund.org/home/
-      img: images/sponsors/visegrad_fund.png
-    -
-      label: Stickermule
-      href: https://www.stickermule.com/uk/unlock?ref_id=5701170701
-      img: images/sponsors/stickermule.png
-    -
-      label: Erni
-      href: https://www.join.erni/en
-      img: images/sponsors/erni.png
+      label: Your company name can be here
+      href: https://progressbar.sk/
+      img: images/sponsors/progressbar_negative.png
 
 place:
   headline: "Place"
@@ -43,11 +31,11 @@ moreInformation:
   sub: "Join Gitter chat, place Going on Facebook event and invite others and see you at place"
   buttons:
     -
-      label: Gitter (Chat)
-      href: https://gitter.im/nodeschool/bratislava
+      label: Facebook Group
+      href: https://www.facebook.com/groups/nodeschoolBratislava/
     -
       label: Facebook Event
-      href: https://www.facebook.com/events/1857473157849563/
+      href: https://www.facebook.com/events/311774255961417
     -
       label: Meetup
       href: https://www.meetup.com/nodejsbratislava/
@@ -60,6 +48,9 @@ moreInformation:
     -
       label: Give a talk
       href: https://github.com/nodeschool/bratislava/blob/master/talks.md
+    -
+      label: Gitter (Chat)
+      href: https://gitter.im/nodeschool/bratislava
 
 sponsors:
   headline: "Sponsors"
