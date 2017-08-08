@@ -6,3 +6,5 @@ bower_components
 *.sublime-project
 *.sublime-workspace
 .sublime-gulp.cache
+
+dist/
