@@ -24,6 +24,7 @@
     "lodash": "~4.17.4",
     "pre-commit": "~1.2.2",
     "prettier": "~1.2.2",
+    "push-dir": "^0.4.1",
     "stylelint": "~7.10.1",
     "stylelint-config-sass-guidelines": "~2.1.0"
   },
@@ -33,7 +34,9 @@
   "scripts": {
     "build": "gulp build",
     "serve": "gulp serve",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
