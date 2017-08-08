@@ -10,7 +10,7 @@ registration:
   subheadline: "13.9.2017 18:00"
   sub: "Michal Kralik - Naučíme sa používať Promise a async/await syntax podporovanú v novších verziách Node.js a JS. Vysvetlíme si ako nám pomôže zbaviť sa callbackov a ukážeme si pár príkladov, na ktoré si treba dať pozor pri implementácii. Matej Nemček - wtfjs - js: the funny part (0.1 + 0.2) === 0.3 // -> false 3 > 2 > 1 // -> false. (![]+[])[+[]]+(![]+[])[+!+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]] // -> .... "
   link: "https://www.meetup.com/nodejsbratislava/events/242383669/"
-  linkText: 'I want go'
+  linkText: 'I want to go'
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
     -
