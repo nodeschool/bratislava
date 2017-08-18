@@ -14,9 +14,13 @@ registration:
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
     -
-      label: Your company name can be here
+      label: Progressbar hackerspace
       href: https://progressbar.sk/
       img: images/sponsors/progressbar_negative.png
+    -
+      label: ERNI		
+      href: https://www.join.erni/en/requisitions/full-stack-java-javascript-developer-403
+      img: images/sponsors/erni.png
 
 place:
   headline: "Place"
