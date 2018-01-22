@@ -39,7 +39,10 @@ gulp help
 ## Deploy to gh-pages
 
 1. Commit `dist/`
-2. Run `git subtree push --prefix dist origin gh-pages`
+2. Run (worked in Bash) 
+```
+git push origin `git subtree split --prefix dist web`:gh-pages --force
+```
 
 ## Views data
 
