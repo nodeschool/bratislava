@@ -6,10 +6,12 @@ header:
   headline: "NodeSchool Bratislava"
 
 registration:
-  headline: "Nodeschool Bratislava #7 async/await + wtf.js"
-  subheadline: "13.9.2017 18:00"
-  sub: "Michal Kralik - Naučíme sa používať Promise a async/await syntax podporovanú v novších verziách Node.js a JS. Vysvetlíme si ako nám pomôže zbaviť sa callbackov a ukážeme si pár príkladov, na ktoré si treba dať pozor pri implementácii. Matej Nemček - wtfjs - js: the funny part (0.1 + 0.2) === 0.3 // -> false 3 > 2 > 1 // -> false. (![]+[])[+[]]+(![]+[])[+!+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]] // -> .... "
-  link: "https://www.meetup.com/nodejsbratislava/events/242383669/"
+  headline: "Nodeschool Bratislava Woman Edition"
+  subheadline: "10.2.2018 9:00"
+  sub: "Are you dreaming about what is like to code? Join our workshop that is open to anyone! We would like to encourage especially women this time. 👩🏾‍💻👩🏻‍💻👩‍💻
+        Please bring your 💻 (notebook) and creativity.
+        There will be 🍕🍕🍕 and 🍹 for all of you."
+  link: "https://www.facebook.com/events/818723091648146/"
   linkText: 'I want to go'
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
@@ -18,9 +20,9 @@ registration:
       href: https://progressbar.sk/
       img: images/sponsors/progressbar_negative.png
     -
-      label: ERNI		
-      href: https://www.join.erni/en/requisitions/full-stack-java-javascript-developer-403
-      img: images/sponsors/erni.png
+      label: Decent platform
+      href: https://decent.ch/en/careers/
+      img: images/sponsors/decent.png
 
 place:
   headline: "Place"
@@ -39,7 +41,7 @@ moreInformation:
       href: https://www.facebook.com/groups/nodeschoolBratislava/
     -
       label: Facebook Event
-      href: https://www.facebook.com/events/311774255961417
+      href: https://www.facebook.com/events/818723091648146/
     -
       label: Meetup
       href: https://www.meetup.com/nodejsbratislava/
@@ -66,7 +68,7 @@ sponsors:
       label: Progressbar Hackerspace
       href: https://www.progressbar.sk
       img: images/sponsors/progressbar_negative.png
-      count: 6
+      count: 7
     -
       label: Aktiv.io CRM
       href: https://www.aktiv.io/
@@ -76,7 +78,7 @@ sponsors:
       label: Erni
       href: https://www.join.erni/en
       img: images/sponsors/erni.png
-      count: 1
+      count: 2
     -
       label: Saferpass.net
       href: https://www.saferpass.net/
