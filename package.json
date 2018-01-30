@@ -4,8 +4,8 @@
     "type": "git",
     "url": ""
   },
-  "version": "0.0.1",
-  "description": "nodeschool description",
+  "version": "8.6.0",
+  "description": "Nodeschool Bratislava - open for everyone",
   "dependencies": {
     "gmaps": "~0.4.24"
   },
