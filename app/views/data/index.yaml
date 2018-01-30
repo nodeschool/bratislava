@@ -19,14 +19,18 @@ registration:
 
         For more advanced 🦄 we will prepare some ES6 tips and/or React basics.
 
-        Link to the course: https://github.com/node-girls/beginners-javascript"
+        Link to the course: https://github.com/node-girls/beginners-javascript
+
+        Talk ~ 30 min
+        Ronald Filo: Why blockchain is such a hot technology and how to handle it using Node.js
+        Brief introduction to blockchain technology and its potential. Explanation of the key principles of every blockchain and a look at differences between various implementations. A brief tutorial on blockchain use cases and it how to integrate it with Node.js."
   link: "https://www.facebook.com/events/818723091648146/"
   linkText: 'I want to go'
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
     -
-      label: Progressbar hackerspace
-      href: https://progressbar.sk/
+      label: Cowork Progressbar
+      href: https://cowork.progressbar.sk/
       img: images/sponsors/progressbar_negative.png
     -
       label: Decent platform
