@@ -38,8 +38,9 @@ gulp help
 
 ## Deploy to gh-pages
 
-1. Commit `dist/`
-2. Run (worked in Bash) 
+1. `gulp build`
+2. Commit `dist/`
+3. Run (worked in Bash)
 ```
 git push origin `git subtree split --prefix dist web`:gh-pages --force
 ```
