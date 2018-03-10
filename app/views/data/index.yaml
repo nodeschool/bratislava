@@ -6,22 +6,18 @@ header:
   headline: "NodeSchool Bratislava"
 
 registration:
-  headline: "Nodeschool Bratislava Woman Edition"
-  subheadline: "10.2.2018 9:00"
-  sub: 
-    - "Are you dreaming about what is like to code? Join our workshop that is open to anyone! We would like to encourage especially women this time. 👩🏾‍💻👩🏻‍💻👩‍💻
+  headline: "Nodeschool Bratislava Woman Edition #2"
+  subheadline: "24.3.2018 9:00"
+  sub:
+    - "Are you dreaming about what is like to code? Join our workshop that is open to anyone! We would like to encourage especially women this time. 👩🏾‍💻👩🏻‍💻👩‍💻 💻
         Please bring your 💻 (notebook) and creativity.
-        There will be 🍕 ~ 🥗 and 🍹 for all of you."
+        There will be 🍕🍕🍕 and 🍹 for all of you."
     - "You are going to learn how to start with Javascript,
         we will teach you the basics of the language,
         what you can use it for and how to use tools
         that are going to help you during coding."
-    - "For more advanced 🦄 we will prepare some ES6 tips and/or React basics."
-    - "Link to the course: https://github.com/node-girls/beginners-javascript"
-    - "Talk ~ 30 min"
-    - "Ronald Filo: Why blockchain is such a hot technology and how to handle it using Node.js"
-    - "Brief introduction to blockchain technology and its potential. Explanation of the key principles of every blockchain and a look at differences between various implementations. A brief tutorial on blockchain use cases and it how to integrate it with Node.js."
-  link: "https://www.facebook.com/events/818723091648146/"
+    - "We will also have program for advanced ones 🦄"
+  link: "https://www.facebook.com/events/342864742877057/"
   linkText: 'I want to go'
   sponsoredByText: 'Sponsored by:'
   sponsoredBy:
@@ -36,7 +32,7 @@ registration:
 
 place:
   headline: "Place"
-  sub: "NodeSchool Bratislava will be at local hackerspace Progressbar, at Michalska 3 street in Downtown of Bratislava. Enter the passage 'Michalsky dvor', on your left you will see black doors, ring the doorbell 'Progressbar'. Go to the second floor, on the right you will see doors to hackerspace Progressbar."
+  sub: "NodeSchool Bratislava will be at local hackerspace Progressbar, at Dunajska 14 street in Downtown of Bratislava. Ring the bell Progressbar and go to the first floor. On the left you will see doors to hackerspace Progressbar."
 
 howToStart:
   headline: "How to start with NodeSchool"
@@ -51,7 +47,7 @@ moreInformation:
       href: https://www.facebook.com/groups/nodeschoolBratislava/
     -
       label: Facebook Event
-      href: https://www.facebook.com/events/818723091648146/
+      href: https://www.facebook.com/events/342864742877057/
     -
       label: Meetup
       href: https://www.meetup.com/nodejsbratislava/
@@ -79,6 +75,11 @@ sponsors:
       href: https://www.progressbar.sk
       img: images/sponsors/progressbar_negative.png
       count: 7
+    -
+      label: DECENT platform
+      href: https://decent.ch/en/careers/
+      img: images/sponsors/decent.png
+      count: 1
     -
       label: Aktiv.io CRM
       href: https://www.aktiv.io/
