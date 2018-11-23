@@ -1,0 +1,39 @@
+{
+  "name": "nodeschool-bratislava",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nodeschool/bratislava.git",
+  "author": "Marcel Mokos <marcel.mokos@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "http-server . -p 3000 --cors='*'",
+    "fix:img": "find src -iname '*.gif' -o -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' -o -iname '*.svg' | xargs imagemin-lint-staged",
+    "prettier": "prettier --write *.{js,jsx,html,md,mdx,yaml,json,css,scss,less}",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,jsx,html,md,mdx,yaml,json,css,scss,less}": [
+        "prettier --write",
+        "git add"
+      ],
+      "*.{png,jpeg,jpg,gif,svg}": [
+        "imagemin-lint-staged",
+        "git add"
+      ]
+    }
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "husky": "^1.2.0",
+    "imagemin-lint-staged": "^0.3.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2"
+  }
+}

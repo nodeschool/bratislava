@@ -1,233 +1,721 @@
-<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!DOCTYPE html
+>><!--[if lt IE 7>]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
 <!--[if IE 9]>         <html class="no-js lt-ie10 ie9"> <![endif]-->
 <!--[if gt IE 9]>      <html class="no-js gt-ie9"> <![endif]-->
-<!--[if !IE] <![IGNORE[--><!--[IGNORE[]]--> <html class="no-js noie">
-<head>
-  <meta charset="utf-8">
-  <title>NodeSchool Bratislava</title>
-  <meta name="description" content="NodeSchool Bratislava">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico?v=2">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;subset=latin,latin-ext" rel="stylesheet," type="text/css">
-  <link rel="stylesheet" href="styles/main.css">
-  <script src="scripts/plugins/modernizr.js"></script>
-</head>
-<body>
-  <header class="hero">
-    <div class="hero__content">
-      <div class="logo">
-        <div class="logo__value"><svg width="100%" height="100%" viewBox="0 0 386 443" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
-    <title>base</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="base" sketch:type="MSLayerGroup">
-            <path d="M196.4,1.4 C194.3,0.2 191.7,0.2 189.6,1.4 L4,108.5 C1.9,109.7 0.6,112 0.6,114.4 L0.6,328.7 C0.6,331.1 1.9,333.4 4,334.6 L189.6,441.7 C190.7,442.3 191.8,442.6 193,442.6 C194.2,442.6 195.4,442.3 196.4,441.7 L382,334.6 C384.1,333.4 385.4,331.1 385.4,328.7 L385.4,114.4 C385.4,112 384.1,109.7 382,108.5 L196.4,1.4 Z" id="background" fill="#0F1010" sketch:type="MSShapeGroup"></path>
-            <path d="M373,326.04853 L193.048504,430 L13,326.04853 L13,118.04853 L193.048504,14 L373,118.04853 L373,326.04853 Z" id="foreground" fill-opacity="0.933084239" fill="#2FC3F0" sketch:type="MSShapeGroup"></path>
-            <g id="spaghety" transform="translate(108.000000, 345.000000)" sketch:type="MSShapeGroup">
-                <path d="M161.3,16.2 C160.8,15.3 159.6,15 158.8,15.5 L92.5,53.8 L120.7,17.8 C121.3,17 121.2,15.8 120.4,15.2 C119.6,14.6 118.4,14.7 117.8,15.5 L87,54.8 L87,16.4 C87,15.4 86.2,14.5 85.1,14.5 C84,14.5 83.2,15.3 83.2,16.4 L83.2,54.8 L52.4,15.5 C51.8,14.7 50.6,14.6 49.8,15.2 C49,15.8 48.9,17 49.5,17.8 L77.7,53.8 L10.1,14.8 C9.2,14.3 8.1,14.6 7.6,15.5 C7.1,16.4 7.4,17.5 8.3,18 L84.2,61.8 C84.2,61.8 84.6,61.9 84.7,61.9 C84.7,61.9 85.1,62 85.2,62 L85.7,61.9 L160.8,18.7 C161.5,18.3 161.8,17.1 161.3,16.2 L161.3,16.2 Z" id="Shape-Copy" fill="#000000"></path>
-                <circle id="Oval-Copy" fill="#050505" cx="166.3" cy="12.7" r="2.3"></circle>
-                <circle id="Oval-Copy-2" fill="#000000" cx="2.8" cy="12.7" r="2.3"></circle>
-                <circle id="Oval-Copy-3" fill="#000000" cx="84.8" cy="5.7" r="2.3"></circle>
-                <path d="M36.4,4.8 C36.1,4.2 36.3,3.5 36.9,3.1 L40.3,1.1 C41.4,0.5 42.5,0.3 43.3,0.5 C44,0.7 44.5,1.1 44.9,1.8 L44.9,1.8 C45.5,2.9 45.3,3.8 44.8,4.6 C46.2,4.4 47.2,4.6 48,5.9 L48,5.9 C49,7.7 48.1,9.4 45.9,10.7 L42.4,12.7 C41.8,13 41.1,12.8 40.7,12.2 L36.4,4.8 L36.4,4.8 Z M42.1,5.3 C43,4.8 43.5,4.1 43,3.4 L43,3.4 C42.6,2.8 41.9,2.7 41,3.2 L38.9,4.4 L40.1,6.5 L42.1,5.3 L42.1,5.3 Z M45,8.9 C45.9,8.4 46.3,7.7 45.9,7 L45.9,7 C45.5,6.3 44.8,6.2 43.7,6.9 L41.2,8.3 L42.4,10.4 L45,8.9 L45,8.9 Z" id="Shape-B" fill="#231F20"></path>
-                <path d="M121.8,6.3 L129.6,0.6 C130.1,0.2 130.8,0.1 131.3,0.5 L131.4,0.6 C132,0.9 132.2,1.5 132.1,2.2 L131.1,11.8 C131.1,12 131,12.2 131,12.3 C130.7,12.9 130,13.1 129.4,12.7 C128.9,12.4 128.7,11.9 128.8,11.4 L129,9.5 L124.7,7 L123.1,8.2 C122.7,8.5 122.2,8.6 121.7,8.3 C121.1,8 121,7.3 121.3,6.7 C121.5,6.5 121.6,6.4 121.8,6.3 L121.8,6.3 Z M129.3,7.1 L129.8,3.1 L126.6,5.5 L129.3,7.1 L129.3,7.1 Z" id="shape-A" fill="#231F20"></path>
-            </g>
-            <g id="trees" transform="translate(53.000000, 273.000000)" stroke-width="3.6" stroke="#000000" sketch:type="MSShapeGroup">
-                <g id="Oval-18-+-Line">
-                    <path d="M16,31 C24.836556,31 32,24.0604136 32,15.5 C32,6.93958638 24.836556,0 16,0 C7.163444,0 0,6.93958638 0,15.5 C0,24.0604136 7.163444,31 16,31 Z" id="Oval-18" fill-opacity="0.431357563" fill="#05C3FF"></path>
-                    <path d="M16,19.4482759 L16,44.5517241" id="Line" stroke-linecap="square"></path>
+<!-- [if !IE] <![IGNORE[
+--><!-- [IGNORE[]] -->
+<html class="no-js noie">
+  <head>
+    <meta charset="utf-8" />
+    <title>NodeSchool Bratislava</title>
+    <meta name="description" content="NodeSchool Bratislava" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico?v=2" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;subset=latin,latin-ext"
+      rel="stylesheet,"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/plugins/modernizr.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <div class="logo">
+          <div class="logo__value">
+            <svg
+              width="100%"
+              height="100%"
+              viewBox="0 0 386 443"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+            >
+              <!--
+                Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch
+              -->
+              <title>base</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+                sketch:type="MSPage"
+              >
+                <g id="base" sketch:type="MSLayerGroup">
+                  <path
+                    d="M196.4,1.4 C194.3,0.2 191.7,0.2 189.6,1.4 L4,108.5 C1.9,109.7 0.6,112 0.6,114.4 L0.6,328.7 C0.6,331.1 1.9,333.4 4,334.6 L189.6,441.7 C190.7,442.3 191.8,442.6 193,442.6 C194.2,442.6 195.4,442.3 196.4,441.7 L382,334.6 C384.1,333.4 385.4,331.1 385.4,328.7 L385.4,114.4 C385.4,112 384.1,109.7 382,108.5 L196.4,1.4 Z"
+                    id="background"
+                    fill="#0F1010"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M373,326.04853 L193.048504,430 L13,326.04853 L13,118.04853 L193.048504,14 L373,118.04853 L373,326.04853 Z"
+                    id="foreground"
+                    fill-opacity="0.933084239"
+                    fill="#2FC3F0"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <g
+                    id="spaghety"
+                    transform="translate(108.000000, 345.000000)"
+                    sketch:type="MSShapeGroup"
+                  >
+                    <path
+                      d="M161.3,16.2 C160.8,15.3 159.6,15 158.8,15.5 L92.5,53.8 L120.7,17.8 C121.3,17 121.2,15.8 120.4,15.2 C119.6,14.6 118.4,14.7 117.8,15.5 L87,54.8 L87,16.4 C87,15.4 86.2,14.5 85.1,14.5 C84,14.5 83.2,15.3 83.2,16.4 L83.2,54.8 L52.4,15.5 C51.8,14.7 50.6,14.6 49.8,15.2 C49,15.8 48.9,17 49.5,17.8 L77.7,53.8 L10.1,14.8 C9.2,14.3 8.1,14.6 7.6,15.5 C7.1,16.4 7.4,17.5 8.3,18 L84.2,61.8 C84.2,61.8 84.6,61.9 84.7,61.9 C84.7,61.9 85.1,62 85.2,62 L85.7,61.9 L160.8,18.7 C161.5,18.3 161.8,17.1 161.3,16.2 L161.3,16.2 Z"
+                      id="Shape-Copy"
+                      fill="#000000"
+                    ></path>
+                    <circle
+                      id="Oval-Copy"
+                      fill="#050505"
+                      cx="166.3"
+                      cy="12.7"
+                      r="2.3"
+                    ></circle>
+                    <circle
+                      id="Oval-Copy-2"
+                      fill="#000000"
+                      cx="2.8"
+                      cy="12.7"
+                      r="2.3"
+                    ></circle>
+                    <circle
+                      id="Oval-Copy-3"
+                      fill="#000000"
+                      cx="84.8"
+                      cy="5.7"
+                      r="2.3"
+                    ></circle>
+                    <path
+                      d="M36.4,4.8 C36.1,4.2 36.3,3.5 36.9,3.1 L40.3,1.1 C41.4,0.5 42.5,0.3 43.3,0.5 C44,0.7 44.5,1.1 44.9,1.8 L44.9,1.8 C45.5,2.9 45.3,3.8 44.8,4.6 C46.2,4.4 47.2,4.6 48,5.9 L48,5.9 C49,7.7 48.1,9.4 45.9,10.7 L42.4,12.7 C41.8,13 41.1,12.8 40.7,12.2 L36.4,4.8 L36.4,4.8 Z M42.1,5.3 C43,4.8 43.5,4.1 43,3.4 L43,3.4 C42.6,2.8 41.9,2.7 41,3.2 L38.9,4.4 L40.1,6.5 L42.1,5.3 L42.1,5.3 Z M45,8.9 C45.9,8.4 46.3,7.7 45.9,7 L45.9,7 C45.5,6.3 44.8,6.2 43.7,6.9 L41.2,8.3 L42.4,10.4 L45,8.9 L45,8.9 Z"
+                      id="Shape-B"
+                      fill="#231F20"
+                    ></path>
+                    <path
+                      d="M121.8,6.3 L129.6,0.6 C130.1,0.2 130.8,0.1 131.3,0.5 L131.4,0.6 C132,0.9 132.2,1.5 132.1,2.2 L131.1,11.8 C131.1,12 131,12.2 131,12.3 C130.7,12.9 130,13.1 129.4,12.7 C128.9,12.4 128.7,11.9 128.8,11.4 L129,9.5 L124.7,7 L123.1,8.2 C122.7,8.5 122.2,8.6 121.7,8.3 C121.1,8 121,7.3 121.3,6.7 C121.5,6.5 121.6,6.4 121.8,6.3 L121.8,6.3 Z M129.3,7.1 L129.8,3.1 L126.6,5.5 L129.3,7.1 L129.3,7.1 Z"
+                      id="shape-A"
+                      fill="#231F20"
+                    ></path>
+                  </g>
+                  <g
+                    id="trees"
+                    transform="translate(53.000000, 273.000000)"
+                    stroke-width="3.6"
+                    stroke="#000000"
+                    sketch:type="MSShapeGroup"
+                  >
+                    <g id="Oval-18-+-Line">
+                      <path
+                        d="M16,31 C24.836556,31 32,24.0604136 32,15.5 C32,6.93958638 24.836556,0 16,0 C7.163444,0 0,6.93958638 0,15.5 C0,24.0604136 7.163444,31 16,31 Z"
+                        id="Oval-18"
+                        fill-opacity="0.431357563"
+                        fill="#05C3FF"
+                      ></path>
+                      <path
+                        d="M16,19.4482759 L16,44.5517241"
+                        id="Line"
+                        stroke-linecap="square"
+                      ></path>
+                    </g>
+                    <g
+                      id="Oval-18-Copy-+-Line-Copy"
+                      transform="translate(203.000000, 1.000000)"
+                    >
+                      <path
+                        d="M16,31 C24.836556,31 32,24.0604136 32,15.5 C32,6.93958638 24.836556,0 16,0 C7.163444,0 0,6.93958638 0,15.5 C0,24.0604136 7.163444,31 16,31 Z"
+                        id="Oval-18-Copy"
+                        fill-opacity="0.431357563"
+                        fill="#05C3FF"
+                      ></path>
+                      <path
+                        d="M16,19.4482759 L16,44.5517241"
+                        id="Line-Copy"
+                        stroke-linecap="square"
+                      ></path>
+                    </g>
+                    <g
+                      id="Triangle-1-+-Line-Copy-2"
+                      transform="translate(251.000000, 0.000000)"
+                    >
+                      <polygon
+                        id="Triangle-1"
+                        fill-opacity="0.431357563"
+                        fill="#05C3FF"
+                        points="14.5 0 29 31 0 31 "
+                      ></polygon>
+                      <path
+                        d="M14,21.4482759 L14,46.5517241"
+                        id="Line-Copy-2"
+                        stroke-linecap="square"
+                      ></path>
+                    </g>
+                  </g>
                 </g>
-                <g id="Oval-18-Copy-+-Line-Copy" transform="translate(203.000000, 1.000000)">
-                    <path d="M16,31 C24.836556,31 32,24.0604136 32,15.5 C32,6.93958638 24.836556,0 16,0 C7.163444,0 0,6.93958638 0,15.5 C0,24.0604136 7.163444,31 16,31 Z" id="Oval-18-Copy" fill-opacity="0.431357563" fill="#05C3FF"></path>
-                    <path d="M16,19.4482759 L16,44.5517241" id="Line-Copy" stroke-linecap="square"></path>
+                <polygon
+                  id="Triangle-2"
+                  stroke="#020101"
+                  stroke-width="4"
+                  sketch:type="MSShapeGroup"
+                  points="192 164 254 319 130 319 "
+                ></polygon>
+                <path
+                  d="M13.5,320 L376.51239,320"
+                  id="Line"
+                  stroke="#090909"
+                  stroke-width="4"
+                  stroke-linecap="square"
+                  sketch:type="MSShapeGroup"
+                ></path>
+                <g
+                  id="ufo-2"
+                  sketch:type="MSLayerGroup"
+                  transform="translate(65.955444, 96.637117)"
+                >
+                  <path
+                    d="M251,96.6968672 C251,81.1012951 195.707167,68.7113002 127.5,69.0230391 C59.2928334,69.3347779 4,82.2302014 4,97.8257735 C4,113.421346 59.2928334,125.81134 127.5,125.499602 C195.707167,125.187863 251,112.292439 251,96.6968672 Z"
+                    id="Oval-5-Copy-2"
+                    stroke="#080808"
+                    stroke-width="3.88000011"
+                    fill="#2DB7E1"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M30.5,106.862883 L30.5,113.862883"
+                    id="Line"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M40.5,108.862883 L40.5,115.862883"
+                    id="Line-Copy-3"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M50.5,108.862883 L50.5,118.862883"
+                    id="Line-Copy-4"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M60.5,108.862883 L60.5,118.862883"
+                    id="Line-Copy-5"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M70.5,109.862883 L70.5,119.862883"
+                    id="Line-Copy-6"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M80.5,110.862883 L80.5,120.862883"
+                    id="Line-Copy-7"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M90.5,110.862883 L90.5,120.862883"
+                    id="Line-Copy-8"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M100.5,111.862883 L100.5,121.862883"
+                    id="Line-Copy-9"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M110.5,111.862883 L110.5,121.862883"
+                    id="Line-Copy-10"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M120.5,112.862883 L120.5,122.862883"
+                    id="Line-Copy-11"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M130.5,112.862883 L130.5,122.862883"
+                    id="Line-Copy-12"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M140.5,111.862883 L140.5,121.862883"
+                    id="Line-Copy-13"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M150.5,111.862883 L150.5,121.862883"
+                    id="Line-Copy-14"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M160.5,111.862883 L160.5,121.862883"
+                    id="Line-Copy-15"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M170.5,111.862883 L170.5,121.862883"
+                    id="Line-Copy-16"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M180.5,111.862883 L180.5,121.862883"
+                    id="Line-Copy-17"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M190.5,110.862883 L190.5,120.862883"
+                    id="Line-Copy-18"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M200.5,109.862883 L200.5,119.862883"
+                    id="Line-Copy-19"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M210.5,107.862883 L210.5,117.862883"
+                    id="Line-Copy-20"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M220.5,104.862883 L220.5,114.862883"
+                    id="Line-Copy-21"
+                    stroke="#000000"
+                    stroke-width="3"
+                    stroke-linecap="square"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M127.5,115 C197.916306,115 255,102.687831 255,87.5 C255,72.3121694 197.916306,60 127.5,60 C57.0836944,60 1.70530257e-13,72.3121694 1.70530257e-13,87.5 C1.70530257e-13,102.687831 57.0836944,115 127.5,115 Z"
+                    id="Oval-5"
+                    stroke="#080808"
+                    stroke-width="4"
+                    fill="#2DB7E1"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M86.7832031,80.984375 C94.3077975,88.7818474 110.8014,91.8989496 127.905333,91.8989496 C144.197548,91.8989496 158.496474,87.6013317 165.607422,80.984375 C169.011742,77.81655 170.244871,78.4222273 170.244871,70.6224357 C170.244871,46.5304297 150.714442,27 126.622436,27 C102.53043,27 83,46.5304297 83,70.6224357 C83,77.6105085 83.7089153,77.7985987 86.7832031,80.984375 Z"
+                    id="Oval-4"
+                    stroke="#050404"
+                    stroke-width="4"
+                    fill="#2DB7E1"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                  <path
+                    d="M152.109298,37.1819468 C157.514101,48.6014344 148.979915,57.5378814 148.979915,57.5378814"
+                    id="Path-16"
+                    stroke="#000000"
+                    stroke-width="3"
+                    sketch:type="MSShapeGroup"
+                    transform="translate(151.441345, 47.359914) rotate(-49.000000) translate(-151.441345, -47.359914) "
+                  ></path>
                 </g>
-                <g id="Triangle-1-+-Line-Copy-2" transform="translate(251.000000, 0.000000)">
-                    <polygon id="Triangle-1" fill-opacity="0.431357563" fill="#05C3FF" points="14.5 0 29 31 0 31 "></polygon>
-                    <path d="M14,21.4482759 L14,46.5517241" id="Line-Copy-2" stroke-linecap="square"></path>
-                </g>
-            </g>
-        </g>
-        <polygon id="Triangle-2" stroke="#020101" stroke-width="4" sketch:type="MSShapeGroup" points="192 164 254 319 130 319 "></polygon>
-        <path d="M13.5,320 L376.51239,320" id="Line" stroke="#090909" stroke-width="4" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-        <g id="ufo-2" sketch:type="MSLayerGroup" transform="translate(65.955444, 96.637117)">
-            <path d="M251,96.6968672 C251,81.1012951 195.707167,68.7113002 127.5,69.0230391 C59.2928334,69.3347779 4,82.2302014 4,97.8257735 C4,113.421346 59.2928334,125.81134 127.5,125.499602 C195.707167,125.187863 251,112.292439 251,96.6968672 Z" id="Oval-5-Copy-2" stroke="#080808" stroke-width="3.88000011" fill="#2DB7E1" sketch:type="MSShapeGroup"></path>
-            <path d="M30.5,106.862883 L30.5,113.862883" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M40.5,108.862883 L40.5,115.862883" id="Line-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M50.5,108.862883 L50.5,118.862883" id="Line-Copy-4" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M60.5,108.862883 L60.5,118.862883" id="Line-Copy-5" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M70.5,109.862883 L70.5,119.862883" id="Line-Copy-6" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M80.5,110.862883 L80.5,120.862883" id="Line-Copy-7" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M90.5,110.862883 L90.5,120.862883" id="Line-Copy-8" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M100.5,111.862883 L100.5,121.862883" id="Line-Copy-9" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M110.5,111.862883 L110.5,121.862883" id="Line-Copy-10" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M120.5,112.862883 L120.5,122.862883" id="Line-Copy-11" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M130.5,112.862883 L130.5,122.862883" id="Line-Copy-12" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M140.5,111.862883 L140.5,121.862883" id="Line-Copy-13" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M150.5,111.862883 L150.5,121.862883" id="Line-Copy-14" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M160.5,111.862883 L160.5,121.862883" id="Line-Copy-15" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M170.5,111.862883 L170.5,121.862883" id="Line-Copy-16" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M180.5,111.862883 L180.5,121.862883" id="Line-Copy-17" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M190.5,110.862883 L190.5,120.862883" id="Line-Copy-18" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M200.5,109.862883 L200.5,119.862883" id="Line-Copy-19" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M210.5,107.862883 L210.5,117.862883" id="Line-Copy-20" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M220.5,104.862883 L220.5,114.862883" id="Line-Copy-21" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M127.5,115 C197.916306,115 255,102.687831 255,87.5 C255,72.3121694 197.916306,60 127.5,60 C57.0836944,60 1.70530257e-13,72.3121694 1.70530257e-13,87.5 C1.70530257e-13,102.687831 57.0836944,115 127.5,115 Z" id="Oval-5" stroke="#080808" stroke-width="4" fill="#2DB7E1" sketch:type="MSShapeGroup"></path>
-            <path d="M86.7832031,80.984375 C94.3077975,88.7818474 110.8014,91.8989496 127.905333,91.8989496 C144.197548,91.8989496 158.496474,87.6013317 165.607422,80.984375 C169.011742,77.81655 170.244871,78.4222273 170.244871,70.6224357 C170.244871,46.5304297 150.714442,27 126.622436,27 C102.53043,27 83,46.5304297 83,70.6224357 C83,77.6105085 83.7089153,77.7985987 86.7832031,80.984375 Z" id="Oval-4" stroke="#050404" stroke-width="4" fill="#2DB7E1" sketch:type="MSShapeGroup"></path>
-            <path d="M152.109298,37.1819468 C157.514101,48.6014344 148.979915,57.5378814 148.979915,57.5378814" id="Path-16" stroke="#000000" stroke-width="3" sketch:type="MSShapeGroup" transform="translate(151.441345, 47.359914) rotate(-49.000000) translate(-151.441345, -47.359914) "></path>
-        </g>
-        <text id="NODESCHOOL" sketch:type="MSTextLayer" font-family="Helvetica" font-size="30" font-weight="260" fill="#070707">
-            <tspan x="93" y="108">NODESCHOOL</tspan>
-        </text>
-        <path d="M161.500834,240 L185.065025,240 C188.342821,240 191,243.580076 191,247.991652 L191,256.008348 C191,260.422015 188.340485,263.958498 185.068171,263.907432 L152,263.391396" id="Rectangle-1" stroke="#000000" stroke-width="4" sketch:type="MSShapeGroup"></path>
-        <path d="M241.000961,288.01496 L200.40871,287.626111 C195.990963,287.587588 192.546293,283.982406 192.715287,279.56163 L192.775185,277.994729 C192.943972,273.579362 196.671797,270 201.084082,270 L234.996719,270" id="Rectangle-1-Copy" stroke="#000000" stroke-width="4" sketch:type="MSShapeGroup"></path>
-    </g>
-</svg></div>
-      </div>
-      <h1 class="hero__headline">NodeSchool Bratislava</h1>
-    </div>
-  </header>
-  <main>
-    <section class="section registration" aria-labelledby="Nodeschool Bratislava Woman Edition #2" id="registration">
-      <div class="section__wrap">
-        <div class="section__content">
-          <h2 class="section__headline">Nodeschool Bratislava Woman Edition #2</h2>
-          <h3 class="section__subheadline">24.3.2018 9:00</h3>
-          <p>Are you dreaming about what is like to code? Join our workshop that is open to anyone! We would like to encourage especially women this time. 👩🏾‍💻👩🏻‍💻👩‍💻 💻 Please bring your 💻 (notebook) and creativity. There will be 🍕🍕🍕 and 🍹 for all of you.</p>
-          <p>You are going to learn how to start with Javascript, we will teach you the basics of the language, what you can use it for and how to use tools that are going to help you during coding.</p>
-          <p>We will also have program for advanced ones 🦄</p>
-        </div><a class="btn" href="https://www.facebook.com/events/342864742877057/" data-text="NodeSchool Bratislava">I want to go</a>
-        <h3>Sponsored by:</h3>
-        <ul class="list flex-list flex-list--horizontal">
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://cowork.progressbar.sk/"><img class="sponsors__logo__img" src="images/sponsors/progressbar_negative.png"></a></div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://decent.ch/en/careers/"><img class="sponsors__logo__img" src="images/sponsors/decent.png"></a></div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <div class="separator">
-      <div class="separator__hexagon"></div>
-    </div>
-    <section class="section place" aria-labelledby="Place" id="place">
-      <div class="section__wrap">
-        <div class="section__content">
-          <h2 class="section__headline">Place</h2>
-          <p>NodeSchool Bratislava will be at local hackerspace Progressbar, at Dunajska 14 street in Downtown of Bratislava. Ring the bell Progressbar and go to the first floor. On the left you will see doors to hackerspace Progressbar. https://goo.gl/maps/Cgcxs1B3bQw</p>
-        </div>
-        <div class="place__map" id="map"></div>
-      </div>
-    </section>
-    <div class="separator">
-      <div class="separator__hexagon"></div>
-    </div>
-    <section class="section how-to-start" aria-labelledby="How to start with NodeSchool" id="how-to-start">
-      <div class="section__wrap">
-        <div class="section__content">
-          <h2 class="section__headline">How to start with NodeSchool</h2>
-          <p>First, you need to install Node.js runtime from https://nodejs.org and then you can pick a workshopper from https://nodeschool.io/#workshopper-list</p>
-        </div>
-        <div class="terms">
-          <div class="term-wrap">
-            <div class="term">
-              <div class="chrome"><span class="btn-term close"></span><span class="btn-term min"></span><span class="btn-term max"></span></div>
-              <div class="shell"><code>npm install -g learnyounode</code><code>learnyounode</code></div>
-            </div>
+                <text
+                  id="NODESCHOOL"
+                  sketch:type="MSTextLayer"
+                  font-family="Helvetica"
+                  font-size="30"
+                  font-weight="260"
+                  fill="#070707"
+                >
+                  <tspan x="93" y="108">NODESCHOOL</tspan>
+                </text>
+                <path
+                  d="M161.500834,240 L185.065025,240 C188.342821,240 191,243.580076 191,247.991652 L191,256.008348 C191,260.422015 188.340485,263.958498 185.068171,263.907432 L152,263.391396"
+                  id="Rectangle-1"
+                  stroke="#000000"
+                  stroke-width="4"
+                  sketch:type="MSShapeGroup"
+                ></path>
+                <path
+                  d="M241.000961,288.01496 L200.40871,287.626111 C195.990963,287.587588 192.546293,283.982406 192.715287,279.56163 L192.775185,277.994729 C192.943972,273.579362 196.671797,270 201.084082,270 L234.996719,270"
+                  id="Rectangle-1-Copy"
+                  stroke="#000000"
+                  stroke-width="4"
+                  sketch:type="MSShapeGroup"
+                ></path>
+              </g>
+            </svg>
           </div>
-          <div class="term-wrap">
-            <div class="term">
-              <div class="chrome"><span class="btn-term close"></span><span class="btn-term min"></span><span class="btn-term max"></span></div>
-              <div class="shell">
-                <div class="workshopper"><code>» HELLO WORLD</code><code>» BABY STEPS</code><code>» MY FIRST I/O!</code></div>
+        </div>
+        <h1 class="hero__headline">NodeSchool Bratislava</h1>
+      </div>
+    </header>
+    <main>
+      <section
+        class="section registration"
+        aria-labelledby="Nodeschool Bratislava Woman Edition #2"
+        id="registration"
+      >
+        <div class="section__wrap">
+          <div class="section__content">
+            <h2 class="section__headline">
+              Nodeschool Bratislava Woman Edition #2
+            </h2>
+            <h3 class="section__subheadline">24.3.2018 9:00</h3>
+            <p>
+              Are you dreaming about what is like to code? Join our workshop
+              that is open to anyone! We would like to encourage especially
+              women this time. 👩🏾‍💻👩🏻‍💻👩‍💻 💻 Please bring your 💻 (notebook) and
+              creativity. There will be 🍕🍕🍕 and 🍹 for all of you.
+            </p>
+            <p>
+              You are going to learn how to start with Javascript, we will teach
+              you the basics of the language, what you can use it for and how to
+              use tools that are going to help you during coding.
+            </p>
+            <p>We will also have program for advanced ones 🦄</p>
+          </div>
+          <a
+            class="btn"
+            href="https://www.facebook.com/events/342864742877057/"
+            data-text="NodeSchool Bratislava"
+            >I want to go</a
+          >
+          <h3>Sponsored by:</h3>
+          <ul class="list flex-list flex-list--horizontal">
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://cowork.progressbar.sk/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/progressbar_negative.png"
+                /></a>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://decent.ch/en/careers/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/decent.png"
+                /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="separator"><div class="separator__hexagon"></div></div>
+      <section class="section place" aria-labelledby="Place" id="place">
+        <div class="section__wrap">
+          <div class="section__content">
+            <h2 class="section__headline">Place</h2>
+            <p>
+              NodeSchool Bratislava will be at local hackerspace Progressbar, at
+              Dunajska 14 street in Downtown of Bratislava. Ring the bell
+              Progressbar and go to the first floor. On the left you will see
+              doors to hackerspace Progressbar. https://goo.gl/maps/Cgcxs1B3bQw
+            </p>
+          </div>
+          <div class="place__map" id="map"></div>
+        </div>
+      </section>
+      <div class="separator"><div class="separator__hexagon"></div></div>
+      <section
+        class="section how-to-start"
+        aria-labelledby="How to start with NodeSchool"
+        id="how-to-start"
+      >
+        <div class="section__wrap">
+          <div class="section__content">
+            <h2 class="section__headline">How to start with NodeSchool</h2>
+            <p>
+              First, you need to install Node.js runtime from https://nodejs.org
+              and then you can pick a workshopper from
+              https://nodeschool.io/#workshopper-list
+            </p>
+          </div>
+          <div class="terms">
+            <div class="term-wrap">
+              <div class="term">
+                <div class="chrome">
+                  <span class="btn-term close"></span
+                  ><span class="btn-term min"></span
+                  ><span class="btn-term max"></span>
+                </div>
+                <div class="shell">
+                  <code>npm install -g learnyounode</code
+                  ><code>learnyounode</code>
+                </div>
+              </div>
+            </div>
+            <div class="term-wrap">
+              <div class="term">
+                <div class="chrome">
+                  <span class="btn-term close"></span
+                  ><span class="btn-term min"></span
+                  ><span class="btn-term max"></span>
+                </div>
+                <div class="shell">
+                  <div class="workshopper">
+                    <code>» HELLO WORLD</code><code>» BABY STEPS</code
+                    ><code>» MY FIRST I/O!</code>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <div class="separator">
-      <div class="separator__hexagon"></div>
-    </div>
-    <section class="section more-information" aria-labelledby="More information" id="more-information">
-      <div class="section__wrap">
-        <div class="section__content">
-          <h2 class="section__headline">More information</h2>
-          <p>Join Gitter chat, place Going on Facebook event and invite others and see you at place</p>
+      </section>
+      <div class="separator"><div class="separator__hexagon"></div></div>
+      <section
+        class="section more-information"
+        aria-labelledby="More information"
+        id="more-information"
+      >
+        <div class="section__wrap">
+          <div class="section__content">
+            <h2 class="section__headline">More information</h2>
+            <p>
+              Join Gitter chat, place Going on Facebook event and invite others
+              and see you at place
+            </p>
+          </div>
+          <div class="btn--buttonline">
+            <a
+              class="btn"
+              href="https://www.facebook.com/groups/nodeschoolBratislava/"
+              >Facebook Group</a
+            ><a
+              class="btn"
+              href="https://www.facebook.com/events/342864742877057/"
+              >Facebook Event</a
+            ><a class="btn" href="https://www.meetup.com/nodejsbratislava/"
+              >Meetup</a
+            ><a class="btn" href="https://github.com/nodeschool/bratislava"
+              >Github</a
+            ><a
+              class="btn"
+              href="https://github.com/nodeschool/bratislava/blob/master/talks.md"
+              >Request Topic</a
+            ><a
+              class="btn"
+              href="https://github.com/nodeschool/bratislava/blob/master/talks.md"
+              >Give a talk</a
+            ><a class="btn" href="https://gitter.im/nodeschool/bratislava"
+              >Gitter (Chat)</a
+            >
+          </div>
         </div>
-        <div class="btn--buttonline"><a class="btn" href="https://www.facebook.com/groups/nodeschoolBratislava/">Facebook Group</a><a class="btn" href="https://www.facebook.com/events/342864742877057/">Facebook Event</a><a class="btn" href="https://www.meetup.com/nodejsbratislava/">Meetup</a><a class="btn" href="https://github.com/nodeschool/bratislava">Github</a><a class="btn" href="https://github.com/nodeschool/bratislava/blob/master/talks.md">Request Topic</a><a class="btn" href="https://github.com/nodeschool/bratislava/blob/master/talks.md">Give a talk</a><a class="btn" href="https://gitter.im/nodeschool/bratislava">Gitter (Chat)</a>
+      </section>
+      <div class="separator"><div class="separator__hexagon"></div></div>
+      <section
+        class="section sponsors"
+        aria-labelledby="Sponsors"
+        id="sponsors"
+      >
+        <div class="section__wrap">
+          <div class="section__content">
+            <h2 class="section__headline">Sponsors</h2>
+            <p>
+              Want to sponsor? We can push or help with your product with our
+              javascript/nodejs newcomers somehow. Also job-offers are welcome
+            </p>
+            <p>Past sponsors:</p>
+          </div>
+          <ul class="list flex-list flex-list--horizontal">
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://www.progressbar.sk"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/progressbar_negative.png"
+                /></a>
+                <div class="sponsors__logo__count">(7)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://decent.ch/en/careers/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/decent.png"
+                /></a>
+                <div class="sponsors__logo__count">(1)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a class="sponsors__logo__link" href="https://www.aktiv.io/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/aktivio.png"
+                /></a>
+                <div class="sponsors__logo__count">(3)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a class="sponsors__logo__link" href="https://www.join.erni/en"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/erni.png"
+                /></a>
+                <div class="sponsors__logo__count">(2)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://www.saferpass.net/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/saferpass.png"
+                /></a>
+                <div class="sponsors__logo__count">(2)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a class="sponsors__logo__link" href="https://maddrop.sk/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/maddrop.png"
+                /></a>
+                <div class="sponsors__logo__count">(1)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="http://visegradfund.org/home/"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/visegrad_fund.png"
+                /></a>
+                <div class="sponsors__logo__count">(1)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://www.pixelfederation.com"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/pixel.png"
+                /></a>
+                <div class="sponsors__logo__count">(1)</div>
+              </div>
+            </li>
+            <li>
+              <div class="sponsors__logo">
+                <a
+                  class="sponsors__logo__link"
+                  href="https://www.stickermule.com/uk/unlock?ref_id=5701170701"
+                  ><img
+                    class="sponsors__logo__img"
+                    src="images/sponsors/stickermule.png"
+                /></a>
+                <div class="sponsors__logo__count">(1)</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrap">
+        <div class="footer__links">
+          <a class="link footer__link" href="http://nodeschool.io/"
+            >NodeSchool.io</a
+          ><span class="footer__link__separator">|</span
+          ><a
+            class="link footer__link"
+            href="https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md"
+            >Code of Conduct</a
+          ><span class="footer__link__separator">|</span
+          ><a
+            class="link footer__link"
+            href="https://github.com/nodeschool/bratislava#setup-your-enviroment"
+            >Environment setup</a
+          ><span class="footer__link__separator">|</span
+          ><a
+            class="link footer__link"
+            href="https://github.com/nodeschool/bratislava/tree/master/library"
+            >Knowledge Library</a
+          ><span class="footer__link__separator">|</span
+          ><a
+            class="link footer__link"
+            href="https://github.com/nodeschool/bratislava/blob/master/talks.md"
+            >Request Topic</a
+          >
         </div>
       </div>
-    </section>
-    <div class="separator">
-      <div class="separator__hexagon"></div>
-    </div>
-    <section class="section sponsors" aria-labelledby="Sponsors" id="sponsors">
-      <div class="section__wrap">
-        <div class="section__content">
-          <h2 class="section__headline">Sponsors</h2>
-          <p>Want to sponsor? We can push or help with your product with our javascript/nodejs newcomers somehow. Also job-offers are welcome</p>
-          <p>Past sponsors:</p>
-        </div>
-        <ul class="list flex-list flex-list--horizontal">
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.progressbar.sk"><img class="sponsors__logo__img" src="images/sponsors/progressbar_negative.png"></a>
-              <div class="sponsors__logo__count"> (7)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://decent.ch/en/careers/"><img class="sponsors__logo__img" src="images/sponsors/decent.png"></a>
-              <div class="sponsors__logo__count"> (1)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.aktiv.io/"><img class="sponsors__logo__img" src="images/sponsors/aktivio.png"></a>
-              <div class="sponsors__logo__count"> (3)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.join.erni/en"><img class="sponsors__logo__img" src="images/sponsors/erni.png"></a>
-              <div class="sponsors__logo__count"> (2)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.saferpass.net/"><img class="sponsors__logo__img" src="images/sponsors/saferpass.png"></a>
-              <div class="sponsors__logo__count"> (2)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://maddrop.sk/"><img class="sponsors__logo__img" src="images/sponsors/maddrop.png"></a>
-              <div class="sponsors__logo__count"> (1)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="http://visegradfund.org/home/"><img class="sponsors__logo__img" src="images/sponsors/visegrad_fund.png"></a>
-              <div class="sponsors__logo__count"> (1)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.pixelfederation.com"><img class="sponsors__logo__img" src="images/sponsors/pixel.png"></a>
-              <div class="sponsors__logo__count"> (1)</div>
-            </div>
-          </li>
-          <li> 
-            <div class="sponsors__logo"><a class="sponsors__logo__link" href="https://www.stickermule.com/uk/unlock?ref_id=5701170701"><img class="sponsors__logo__img" src="images/sponsors/stickermule.png"></a>
-              <div class="sponsors__logo__count"> (1)</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__wrap">
-      <div class="footer__links"><a class="link footer__link" href="http://nodeschool.io/">NodeSchool.io</a><span class="footer__link__separator">|</span><a class="link footer__link" href="https://github.com/nodeschool/bratislava/blob/master/codeofconduct.md">Code of Conduct</a><span class="footer__link__separator">|</span><a class="link footer__link" href="https://github.com/nodeschool/bratislava#setup-your-enviroment">Environment setup</a><span class="footer__link__separator">|</span><a class="link footer__link" href="https://github.com/nodeschool/bratislava/tree/master/library">Knowledge Library</a><span class="footer__link__separator">|</span><a class="link footer__link" href="https://github.com/nodeschool/bratislava/blob/master/talks.md">Request Topic</a>
-      </div>
-    </div>
-  </footer>
-  <script src="https://maps.google.com/maps/api/js"></script>
-  <script src="scripts/main.js"></script>
-</body></html>
+    </footer>
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
