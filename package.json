@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "start": "http-server . -p 3000 --cors='*'",
-    "fix:img": "find src -iname '*.gif' -o -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' -o -iname '*.svg' | xargs imagemin-lint-staged",
+    "fix:img": "find . -iname '*.gif' -o -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' -o -iname '*.svg' | xargs imagemin-lint-staged",
     "prettier": "prettier --write **/*.{js,jsx,html,md,mdx,yaml,json,css,scss,less}",
     "precommit": "lint-staged"
   },
